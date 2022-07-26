@@ -1,0 +1,17 @@
+body{
+	background: #aaa;
+	margin: 100px 0 0 100px;
+}
+#canvas{
+	border: 1px solid whitesmoke;
+	border-radius: 20px;
+	background: #000000;
+}
+#score{
+	position: absolute;
+	color: #ffffff;
+	font-size: 80px;
+	font-family: sans-serif;
+	top: 30px;
+	left: 510px;
+}
