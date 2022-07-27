@@ -1,17 +1,32 @@
 body{
-	background: #aaa;
-	margin: 100px 0 0 100px;
+	background: #555;
+	font-family: sans-serif;
+	margin: 100px 0 0 50px;
 }
 #canvas{
 	border: 1px solid whitesmoke;
 	border-radius: 20px;
 	background: #000000;
 }
-#score{
+p{
 	position: absolute;
 	color: #ffffff;
 	font-size: 80px;
-	font-family: sans-serif;
 	top: 30px;
-	left: 510px;
+	left: 560px;
+}
+#scoreA{
+	left: 100px;
+}
+#message{
+	background: #ffffff;
+	height: 80px;
+	width: 270px;
+	text-align: center;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 40px;
+	top: 200px;
+	left: 240px;
+	cursor: pointer;
 }
